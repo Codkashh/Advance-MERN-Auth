@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+public/
+
+# Cache files
+.cache/
+.nyc_output/
+coverage/
+tmp/
+temp/
+.vscode/
+
+# Editor-specific files
+.idea/
+*.swp
+*.swo
+*.swn
+*.swd
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Optional lock files (if not used consistently)
+package-lock.json
+yarn.lock
+pnpm-lock
